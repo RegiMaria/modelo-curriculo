@@ -2,15 +2,13 @@
 
 <img width="180" alt="First Commit-m" src="https://github.com/user-attachments/assets/7173a640-426c-4597-97db-e932f91666dd" />
 
+
 # Modelos de Currículo
 
 **Modelos de currículo prontos pra editar + um roteiro prático pra construir seu portfólio em tecnologia.**
+<a href="https://regimaria.github.io/modelo-curriculo/index.html#top"> <img src="https://img.shields.io/badge/Acesse%20o%20site-FF2D95?style=for-the-badge&logoColor=white" alt="Acesse o site" width="280" />
 
-<a href="https://regimaria.github.io/modelo-curriculo/index.html#top">
-  <img src="https://img.shields.io/badge/Acesse%20o%20site-FF2D95?style=for-the-badge&logoColor=white" alt="Acesse o site"  width="280" />
-</a>
-
-</div>
+</a> <img src="https://visitor-badge.laobi.icu/badge?page_id=regimaria.modelo-curriculo&left_color=%233B1450&right_color=%23FF2D95" alt="Contador de visitas" width="120" /> </div>
 
 ---
 
@@ -53,7 +51,7 @@ prática de forma que vire material de portfólio de verdade.
 
 ## Como usar
 
-1. Acesse o [site](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/).
+1. Acesse o [site](https://regimaria.github.io/modelo-curriculo/index.html#top).
 2. Baixe o modelo de currículo que fizer mais sentido pra você.
 3. Se ainda não tem projetos pra colocar nele, comece pela trilha AWS e
    documente sua prática seguindo o padrão explicado no site.
@@ -73,6 +71,7 @@ prática de forma que vire material de portfólio de verdade.
 </td> </tr> </table>
 
 <div align="center">
+
 
 Se te ajudou, não esqueça de deixar uma ⭐
 
