@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Como documentar seus labs — First Commit-m</title>
+<title>Como documentar seus labs - First Commit-m</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -87,7 +87,7 @@
       </h1>
       <p class="lede" style="font-size: 1.05rem; margin-bottom: 40px;">
         É registrar o processo: o que era o problema, o que você decidiu fazer e por quê,
-        e o que aprendeu no caminho. É essa parte — não o certificado — que vira material
+        e o que aprendeu no caminho. É essa parte - não o certificado - que vira material
         de portfólio de verdade.
       </p>
 
@@ -107,7 +107,7 @@ day-04-nome-do-lab/<br>
       <ol class="step-list">
         <li>
           <span class="num">1</span>
-          <div><strong>O que é o serviço</strong>Duas ou três frases, com suas próprias palavras — isso já mostra que você entendeu, não só copiou.</div>
+          <div><strong>O que é o serviço</strong>Duas ou três frases, com suas próprias palavras - isso já mostra que você entendeu, não só copiou.</div>
         </li>
         <li>
           <span class="num">2</span>
@@ -115,7 +115,7 @@ day-04-nome-do-lab/<br>
         </li>
         <li>
           <span class="num">3</span>
-          <div><strong>O passo a passo do que você fez</strong>As decisões que você tomou no console — não precisa ser um tutorial, é o seu raciocínio.</div>
+          <div><strong>O passo a passo do que você fez</strong>As decisões que você tomou no console - não precisa ser um tutorial, é o seu raciocínio.</div>
         </li>
         <li>
           <span class="num">4</span>
@@ -129,21 +129,21 @@ day-04-nome-do-lab/<br>
 
       <p class="lede" style="margin: 32px 0 12px;">
         Depois de uns 3 ou 4 labs documentados assim, você já tem material pronto pra
-        virar bullets de projeto no seu currículo — é só voltar pros
+        virar bullets de projeto no seu currículo - é só voltar pros
         <a href="index.html#modelos" style="color: var(--purple-brand); font-weight:600;">modelos</a> e preencher.
       </p>
 
       <h2 style="margin: 48px 0 8px;">Veja um exemplo preenchido</h2>
       <p class="lede" style="margin-bottom: 20px;">
         Esse é um <code>guia-lab.md</code> real, do lab "Highly Available Web Applications"
-        do AWS SimuLearn — e, logo abaixo, como esse mesmo lab vira um bullet de currículo.
+        do AWS SimuLearn - e, logo abaixo, como esse mesmo lab vira um bullet de currículo.
       </p>
 
       <div class="doc-example">
         <h4>day-11-highly-available-web-applications/guia-lab.md</h4>
 
         <p style="font-weight:600; color: var(--purple-deep); margin: 18px 0 4px;">O que é o serviço</p>
-        <p style="color:#3A2C44;">Nesse lab eu trabalhei com Application Load Balancer (ALB) e EC2 Auto Scaling. O ALB fica na frente da aplicação e distribui as requisições entre várias instâncias, pra nenhum servidor sobrecarregar sozinho. O Auto Scaling group garante um número mínimo de instâncias saudáveis — se uma cai, ele sobe outra automaticamente.</p>
+        <p style="color:#3A2C44;">Nesse lab eu trabalhei com Application Load Balancer (ALB) e EC2 Auto Scaling. O ALB fica na frente da aplicação e distribui as requisições entre várias instâncias, pra nenhum servidor sobrecarregar sozinho. O Auto Scaling group garante um número mínimo de instâncias saudáveis - se uma cai, ele sobe outra automaticamente.</p>
 
         <p style="font-weight:600; color: var(--purple-deep); margin: 16px 0 4px;">O cenário do problema</p>
         <p style="color:#3A2C44;">Uma agência de viagens fictícia teve um pico de tráfego que derrubou o site, e logo depois uma instância ficou indisponível por estar concentrada numa única Availability Zone instável. O desafio era redesenhar a infraestrutura pra que isso não se repetisse.</p>
@@ -153,11 +153,11 @@ day-04-nome-do-lab/<br>
           <li>Criei um target group e um Application Load Balancer distribuído em 3 Availability Zones.</li>
           <li>Configurei security groups em camadas: o load balancer aceita tráfego público, mas as instâncias só aceitam tráfego vindo dele.</li>
           <li>Configurei um health check customizado e testei o auto-healing encerrando uma instância manualmente.</li>
-          <li>No desafio final, estendi de 2 para 3 Availability Zones — e aprendi que também é preciso aumentar a capacidade desejada, não só a rede.</li>
+          <li>No desafio final, estendi de 2 para 3 Availability Zones - e aprendi que também é preciso aumentar a capacidade desejada, não só a rede.</li>
         </ul>
 
         <p style="font-weight:600; color: var(--purple-deep); margin: 16px 0 4px;">O que travou</p>
-        <p style="color:#3A2C44;">A validação continuou falhando mesmo após adicionar a terceira zona — porque eu tinha mudado só a rede, e a capacidade desejada continuava em 2. Só resolveu ao editar a capacidade separadamente.</p>
+        <p style="color:#3A2C44;">A validação continuou falhando mesmo após adicionar a terceira zona - porque eu tinha mudado só a rede, e a capacidade desejada continuava em 2. Só resolveu ao editar a capacidade separadamente.</p>
 
         <p style="font-weight:600; color: var(--purple-deep); margin: 16px 0 4px;">O que eu aprendi</p>
         <p style="color:#3A2C44; margin-bottom:0;">Auto-healing troca uma instância quebrada por outra igual; alta disponibilidade garante que o serviço continua no ar enquanto essa troca acontece. Configuração de infraestrutura tem camadas independentes (rede, capacidade, security group) que precisam ser alinhadas juntas.</p>
