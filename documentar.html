@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como documentar seus labs — First Commit-m</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  .doc-example {
+    background: var(--paper);
+    border: 1.5px solid var(--line);
+    border-radius: 20px;
+    padding: 30px 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.92rem;
+  }
+  .doc-example h4 {
+    font-family: var(--serif);
+    color: var(--purple-deep);
+    margin: 0 0 10px;
+    font-size: 1.05rem;
+  }
+  .doc-tree {
+    background: var(--paper-alt);
+    border-radius: 14px;
+    padding: 20px 24px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.86rem;
+    line-height: 1.9;
+    color: #3A2C44;
+    margin: 20px 0 28px;
+    overflow-x: auto;
+  }
+  .step-list { counter-reset: step; list-style: none; padding: 0; margin: 0; }
+  .step-list li {
+    counter-increment: step;
+    display: flex;
+    gap: 18px;
+    padding: 18px 0;
+    border-top: 1px solid var(--line);
+  }
+  .step-list li:first-child { border-top: none; }
+  .step-list .num {
+    font-family: var(--serif);
+    font-weight: 600;
+    color: var(--gold-deep);
+    font-size: 1.3rem;
+    min-width: 28px;
+  }
+  .step-list strong { display: block; color: var(--purple-deep); margin-bottom: 3px; }
+  .inspiration {
+    margin-top: 40px;
+    padding: 26px 28px;
+    background: var(--purple-deep);
+    border-radius: 20px;
+    color: #fff;
+  }
+  .inspiration a { color: var(--gold); font-weight: 600; }
+  .back-link { display: inline-block; margin-bottom: 28px; font-size: 0.92rem; color: var(--purple-brand); text-decoration: none; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html#top" class="brand">
+      <img src="assets/img/logo-simples.jpg" alt="">
+      First<span class="commit">Commit</span>-m
+    </a>
+    <nav class="site-nav">
+      <a href="index.html#triangulo">O triângulo</a>
+      <a href="index.html#modelos">Modelos de currículo</a>
+      <a href="index.html#trilha">Trilha AWS</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section" style="padding-top:56px;">
+    <div class="wrap" style="max-width: 760px;">
+      <a href="index.html#trilha" class="back-link">← Voltar</a>
+      <h1 style="font-family: var(--serif); font-size: clamp(1.9rem,3.6vw,2.6rem); color: var(--purple-deep); margin-bottom: 14px;">
+        Documentar não é só "fazer o lab"
+      </h1>
+      <p class="lede" style="font-size: 1.05rem; margin-bottom: 40px;">
+        É registrar o processo: o que era o problema, o que você decidiu fazer e por quê,
+        e o que aprendeu no caminho. É essa parte — não o certificado — que vira material
+        de portfólio de verdade.
+      </p>
+
+      <h2 style="margin-bottom: 18px;">O padrão</h2>
+      <p class="lede" style="margin-bottom: 8px;">
+        Uma pasta por dia de estudo, sempre com a mesma estrutura. Assim quem olha seu
+        GitHub entende o ritmo e a evolução sem precisar perguntar nada.
+      </p>
+      <div class="doc-tree">
+day-04-nome-do-lab/<br>
+├── guia-lab.md<br>
+├── screenshot-resultado.png<br>
+└── certificado.png <span style="color:#8a7a94">(se disponível)</span>
+      </div>
+
+      <h2 style="margin-bottom: 18px;">O que entra no guia-lab.md</h2>
+      <ol class="step-list">
+        <li>
+          <span class="num">1</span>
+          <div><strong>O que é o serviço</strong>Duas ou três frases, com suas próprias palavras — isso já mostra que você entendeu, não só copiou.</div>
+        </li>
+        <li>
+          <span class="num">2</span>
+          <div><strong>O cenário do problema</strong>Qual era a situação fictícia proposta pelo lab, e o que ela pedia.</div>
+        </li>
+        <li>
+          <span class="num">3</span>
+          <div><strong>O passo a passo do que você fez</strong>As decisões que você tomou no console — não precisa ser um tutorial, é o seu raciocínio.</div>
+        </li>
+        <li>
+          <span class="num">4</span>
+          <div><strong>O que travou e como resolveu</strong>Se algo deu errado ou confundiu, registre. É frequentemente a parte mais interessante pra quem lê.</div>
+        </li>
+        <li>
+          <span class="num">5</span>
+          <div><strong>O que você aprendeu</strong>Fechando em 2-3 linhas: o que muda no seu entendimento depois desse lab.</div>
+        </li>
+      </ol>
+
+      <p class="lede" style="margin: 32px 0 12px;">
+        Depois de uns 3 ou 4 labs documentados assim, você já tem material pronto pra
+        virar bullets de projeto no seu currículo — é só voltar pros
+        <a href="index.html#modelos" style="color: var(--purple-brand); font-weight:600;">modelos</a> e preencher.
+      </p>
+
+      <div class="inspiration">
+        <h3 style="color:#fff; margin-bottom:8px;">Quer ver um exemplo real?</h3>
+        <p style="color: rgba(255,255,255,0.85); margin-bottom: 0;">
+          O repositório
+          <a href="https://github.com/RegiMaria/aws-challenge" target="_blank" rel="noopener">RegiMaria/aws-challenge</a>
+          documenta essa trilha dia a dia, seguindo exatamente esse padrão — bom pra ver a ideia aplicada na prática.
+        </p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="assets/img/logo-simples.jpg" alt="">
+      First Commit-m
+    </div>
+    <span>Comunidade tech feminina</span>
+  </div>
+</footer>
+
+</body>
+</html>
