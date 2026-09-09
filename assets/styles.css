@@ -380,6 +380,12 @@ p { margin: 0; }
   gap: 7px;
 }
 
+.trail-card .btn {
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  font-size: 0.88rem;
+}
+
 .cta-band {
   margin-top: 44px;
   background: var(--purple-deep);
