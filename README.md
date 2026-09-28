@@ -6,7 +6,7 @@
 # Modelos de Currículo
 
 **Modelos de currículo prontos pra editar + um roteiro prático pra construir seu portfólio em tecnologia.**
-<a href="https://regimaria.github.io/modelo-curriculo/ia-carreira.html"> <img src="https://img.shields.io/badge/Acesse%20o%20site-FF2D95?style=for-the-badge&logoColor=white" alt="Acesse o site" width="280" />
+<a href="https://regimaria.github.io/modelo-curriculo/index.html#top"> <img src="https://img.shields.io/badge/Acesse%20o%20site-FF2D95?style=for-the-badge&logoColor=white" alt="Acesse o site" width="280" />
 
 </a> <img src="https://visitor-badge.laobi.icu/badge?page_id=regimaria.modelo-curriculo&left_color=%233B1450&right_color=%23FF2D95" alt="Contador de visitas" width="120" /> </div>
 
