@@ -447,6 +447,48 @@ p { margin: 0; }
 }
 
 /* ============================================================
+   IA e Carreira band
+   ============================================================ */
+.ia-band {
+  background: linear-gradient(135deg, var(--purple-deep) 0%, #5A2178 100%);
+  border-radius: 28px;
+  padding: 52px 48px;
+}
+
+.ia-band-text {
+  max-width: 640px;
+}
+
+.ia-band .model-tag { color: var(--gold); }
+.ia-band h2 { color: #fff; margin: 10px 0 14px; }
+.ia-band .lede { color: rgba(255,255,255,0.82); }
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 28px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.22);
+}
+
+.ia-band .btn--primary {
+  background: var(--gold);
+  color: var(--purple-deep);
+}
+.ia-band .btn--primary:hover { box-shadow: 0 6px 18px rgba(255, 196, 14, 0.35); }
+
+/* ============================================================
    Responsive
    ============================================================ */
 @media (max-width: 860px) {
@@ -458,4 +500,5 @@ p { margin: 0; }
   .site-nav { display: none; }
   .section { padding: 64px 0; }
   .cta-band { flex-direction: column; align-items: flex-start; }
+  .ia-band { padding: 36px 26px; }
 }
