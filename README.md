@@ -66,7 +66,7 @@ prática de forma que vire material de portfólio de verdade.
 
 </td> </tr> <tr> <td width="110" align="center"> <img width="90" height="90" alt="First Commit-m" src="https://github.com/user-attachments/assets/7173a640-426c-4597-97db-e932f91666dd" /> </td> <td>
 
-[First Commit-m Comunidade tech feminina - Instagram ](https://www.instagram.com/firstcommitmulher/)
+[First Commit-m Comunidade tech feminina - Linkedin ](https://www.linkedin.com/company/first-commit-m/)
 
 </td> </tr> </table>
 
